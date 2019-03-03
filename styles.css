@@ -1,0 +1,48 @@
+/* Universal Doc Styling  */
+
+
+body  {
+  font-family: "Laila", serif;
+  text-align: center;
+  }
+
+/* Header */
+.header {
+  position: relative;
+  background-image: url("Brushes.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  color: Ivory;
+  border: 5px solid Snow;
+}
+
+header h1 {
+  font-size: 50px;
+  font-weight: 700;
+  padding-top: 80px;
+  margin-bottom: 50px;
+  
+}
+
+header h2 {
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 50px;
+  
+}
+
+  
+
+
+/* Navigation Section */
+
+
+
+
+/* Profile Picture and Bio Section */
+
+
+
+/* Footer Section */
+
