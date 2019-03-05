@@ -4,6 +4,7 @@
 body  {
   font-family: "Laila", serif;
   text-align: center;
+  border: 5px solid Snow;
   }
 
 /* Header */
@@ -14,34 +15,50 @@ body  {
   background-size: cover;
   height: 300px;
   color: Ivory;
-  border: 5px solid Snow;
+  
 }
 
 header h1 {
   font-size: 50px;
   font-weight: 700;
   padding-top: 80px;
-  margin-bottom: 50px;
-  
+  margin-bottom: 50px;  
 }
 
 header h2 {
   font-size: 35px;
   font-weight: 700;
-  padding-bottom: 50px;
-  
+  padding-bottom: 50px; 
 }
-
-  
-
 
 /* Navigation Section */
 
+nav ul {
+  overflow: hidden;
+  background-color: Black;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: Snow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #222;
+}
 
 
-
-/* Profile Picture and Bio Section */
-
+/* Main - Profile Picture and Bio Section */
+main {
+  background-color: Plum;
+}
 
 
 /* Footer Section */
