@@ -1,5 +1,7 @@
 /* Universal Doc Styling  */
 
+
+
 body  {
   font-family: "Laila", serif;
   text-align: center;
@@ -55,7 +57,7 @@ nav a:hover {
 }
 
 /* Main - Profile Picture and Bio Section */
-main {
+#page1 {
   background-color: LavenderBlush;
   height: 600px;
   border: 75px solid Moccasin;
@@ -65,14 +67,14 @@ main {
   padding-top: 100px;
 }
 
-main img {
+#page1 img {
   border: 6px solid Black;
   height: 350px;
 }
 
 
 
-main h1 {
+#page1 h1 {
   font-size: 26px;
   font-weight: 700;
   text-align: justify;
@@ -80,7 +82,7 @@ main h1 {
   padding-bottom: 5px;
 }
 
-hr {
+#page1 hr {
   width: 25%;
   display: block;
   height: 5px;
@@ -90,7 +92,7 @@ hr {
   padding-bottom: 25px;
 }
 
-main p {
+#page1 p {
   font-size: 16px;
   text-align: left;
   padding-right: 75px;
@@ -102,3 +104,53 @@ footer {
   background-color: Moccasin;
   font-style: italic;
 }
+
+
+/* Contact Page */
+
+#page2 {
+  background-color: LavenderBlush;
+  height: 600px;
+  border: 75px solid Moccasin;
+  border-top: 0;
+  border-bottom: 75px;
+  padding-top: 75px;
+}
+
+#page2 h1 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+
+#page2 h2 {
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
+#page2 input, #page2 textarea {
+  border: 3px solid grey;
+  font-size: 14px;
+  margin-bottom:10px;
+  width: 450px;
+}
+
+#page2 input {
+  height: 30px;
+}
+
+#page2 textarea {
+  height: 100px;
+}
+
+#page2 #button {
+  width: 100px;
+  margin-right: 360px;
+  background-color: Purple;
+  color: Snow;
+}
+
+#page2 #button:hover {
+  background-color: DimGrey;
+}
+

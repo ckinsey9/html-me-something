@@ -29,24 +29,21 @@
           </ul>
        
     </nav>
-    <!--This will be split into Sierra's picture and short bio-->
-    <main>
-      <form>
-          First Name:<br>
-          <input type="text" name="firstname"><br>
-          Last Name:<br>
-          <input type="text" name="lastname"><br>
-          Subject:<br>
-          <input type="text" name="subject"><br>
-          Message:<br>
-          <textarea name="message"><br>
-          <input type="submit" value="Submit">
+    <!--This will be the contact form-->
+    <main id="page2">
+      <div class = "contact"> 
+        <h1>Contact Me</h1>
+        <h2>Send me a message and I will get back to you as soon as possible.</h2>
+        <form>
+          <input type="text" id="name" maxlength="35" placeholder="Name"><br>
+          <input type="text" id="email" maxlength="50" placeholder="Email"><br>         
+          <input type="text" id="subject" maxlength="50" placeholder="Subject"><br>
+          <textarea id="message" maxlength="300" placeholder="Message"></textarea><br>
+          <input type="submit" id="button" value="Submit">
 
-      </form>
-      <div id = "contact">
-        <p><strong>Email:</strong> sierram@wustl.edu<br>
-        <strong>Location:</strong> Greater St. Louis Area</p>
-      </div>
+        </form>
+      </div> 
+      
     </main>
     
     <footer class = "footer">
