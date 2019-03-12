@@ -137,9 +137,9 @@ footer {
 }
 
 
-/* Contact Page */
+/* Contact Page and Some Continuing Education Page */
 
-#page2 {
+#page2, #page3 {
   background-color: LavenderBlush;
   height: 600px;
   border: 75px solid Moccasin;
@@ -148,15 +148,22 @@ footer {
   padding-top: 75px;
 }
 
-#page2 h1 {
+#page2 h1, #page3 h1 {
   font-size: 24px;
   font-weight: 700;
   padding-bottom: 50px;
 }
 
-#page2 h2 {
+#page2 h2, #page3 h2 {
   font-size: 18px;
-  padding-bottom: 50px;
+  padding-bottom: 35px;
+}
+
+#page3 h2 {
+  float: left;
+  display: block;
+  padding-left: 10px;
+  text-decoration: underline;
 }
 
 #page2 input, #page2 textarea {
@@ -185,3 +192,35 @@ footer {
   background-color: DimGrey;
 }
 
+
+/*Continue Page */
+
+.continue {
+  height: 25%;
+}
+
+.date_lists {
+  height: 75%;
+  width: 98%;
+}
+
+#page3 li {
+  list-style: circle;
+  padding: 5px;
+  margin-left: -100px;
+  text-align: left;
+}
+
+.first, .edu {
+  width: 100%;
+  height: 25%;
+  column-count: 2;
+  border: 5px solid purple;
+  text-align: left;
+  padding: 10px;
+  padding-right: 0;
+}
+
+.first {
+  border-bottom: 0;
+}
