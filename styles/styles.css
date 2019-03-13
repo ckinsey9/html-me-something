@@ -11,7 +11,7 @@ body  {
 /* Header */
 .header {
   position: relative;
-  background-image: linear-gradient(to bottom right, Indigo, Plum);
+  background-image: url("../images/wood.jpeg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -150,16 +150,16 @@ footer {
 
 /* Contact Page and Some Continuing Education Page */
 
-#page2, #page3 {
+#page2, #page3, #page5, #page6 {
   background-color: LavenderBlush;
   height: 600px;
-  border: 75px solid Moccasin;
+  border: 75px solid Silver;
   border-top: 0;
   border-bottom: 75px;
   padding-top: 75px;
 }
 
-#page2 h1, #page3 h1 {
+#page2 h1, #page3 h1, #page5 h1, #page6 h1 {
   font-size: 24px;
   font-weight: 700;
   padding-bottom: 50px;
@@ -215,12 +215,13 @@ footer {
   width: 98%;
 }
 
-#page3 li {
+#page3 li, #page5 li, #page6 li{
   list-style: circle;
   padding: 5px;
-  margin-left: -100px;
+  margin-left: -200px;
   text-align: left;
 }
+
 
 .first, .edu {
   width: 100%;
@@ -234,4 +235,45 @@ footer {
 
 .first {
   border-bottom: 0;
+}
+
+/* Organ Page and Research Page*/
+
+.organ, .research{
+  height: 10%;
+}
+
+#page5 lh, #page6 lh {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: -220px;
+}
+
+#page5 h2, #page6 h2{
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 3px;
+  line-height: 1.4;
+}
+
+#page5 i, #page6 i{
+  font-size: 14px;
+  font-style: italic;
+}
+
+#page6 h2 {
+  padding-bottom: 30px;
+}
+
+#page6 .edu, #page6 .first{
+  height: 40%;
+}
+
+#page6 li {
+  padding-top: 10px;
+}
+
+#page6 {
+  height: 500px;
 }
