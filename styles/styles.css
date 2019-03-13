@@ -150,7 +150,7 @@ footer {
 
 /* Contact Page and Some Continuing Education Page */
 
-#page2, #page3, #page5, #page6 {
+#page2, #page3, #page5, #page6, #page7 {
   background-color: LavenderBlush;
   height: 600px;
   border: 75px solid Silver;
@@ -159,7 +159,7 @@ footer {
   padding-top: 75px;
 }
 
-#page2 h1, #page3 h1, #page5 h1, #page6 h1 {
+#page2 h1, #page3 h1, #page5 h1, #page6 h1, #page7 h1 {
   font-size: 24px;
   font-weight: 700;
   padding-bottom: 50px;
@@ -215,7 +215,7 @@ footer {
   width: 98%;
 }
 
-#page3 li, #page5 li, #page6 li{
+#page3 li, #page5 li, #page6 li, #page7 li{
   list-style: circle;
   padding: 5px;
   margin-left: -200px;
@@ -223,7 +223,7 @@ footer {
 }
 
 
-.first, .edu {
+.first, .edu, .edu1, .first1 {
   width: 100%;
   height: 25%;
   column-count: 2;
@@ -233,36 +233,36 @@ footer {
   padding-right: 0;
 }
 
-.first {
+.first, .first1 {
   border-bottom: 0;
 }
 
-/* Organ Page and Research Page*/
+/* Organ Page and Research Page and Fieldwork*/
 
-.organ, .research{
+.organ, .research {
   height: 10%;
 }
 
-#page5 lh, #page6 lh {
+#page5 lh, #page6 lh, #page7 lh {
   text-align: left;
   font-size: 18px;
   font-weight: 700;
   margin-left: -220px;
 }
 
-#page5 h2, #page6 h2{
+#page5 h2, #page6 h2, #page7 h2{
   font-size: 18px;
   font-weight: 700;
   padding-bottom: 3px;
   line-height: 1.4;
 }
 
-#page5 i, #page6 i{
+#page5 i, #page6 i, #page7 i{
   font-size: 14px;
   font-style: italic;
 }
 
-#page6 h2 {
+#page6 h2, #page7 h2 {
   padding-bottom: 30px;
 }
 
@@ -270,10 +270,52 @@ footer {
   height: 40%;
 }
 
-#page6 li {
+#page6 li, #page7 li {
   padding-top: 10px;
 }
 
 #page6 {
   height: 500px;
 }
+
+#page7 {
+  height: 1000px;
+  padding-top: 25px;
+}
+
+#page7 .first {
+  height: 150px;
+  border-bottom: 5px solid purple;
+}
+
+#page7 .edu {
+  height: 15%;
+  border-top: 0;
+}
+
+
+#page7 .date_lists, #page7 .date_lists1 {
+  height: 35%;
+  padding-top: 15px;
+}
+
+.date_lists1 {
+  padding-top: 25px;
+  
+}
+
+.fieldwork, .fieldwork1 {
+  height: 5%;
+  padding-top: 20px;
+}
+
+
+#page7 .edu1, #page7 .first1{
+  height: 40%;
+  width: 98%;
+}
+
+
+
+
+
