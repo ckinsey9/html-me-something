@@ -11,7 +11,7 @@ body  {
 /* Header */
 .header {
   position: relative;
-  background-image: url(../images/Brushes.jpg);
+  background-image: linear-gradient(to bottom right, Indigo, Plum);
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -87,25 +87,25 @@ nav a:hover, .dropdown:hover {
   display: block;
 }
 
-/* Main - Profile Picture and Bio Section */
-#page1 {
+/* Main - Profile Picture and Bio Section, Also Education Page */
+#page1, #page4 {
   background-color: LavenderBlush;
-  height: 600px;
-  border: 75px solid Moccasin;
+  height: 500px;
+  border: 75px solid Silver;
   border-top: 0;
   border-bottom: 75px;
   column-count: 2;
   padding-top: 100px;
 }
 
-#page1 img {
+#page1 img, #page4 img {
   border: 6px solid Black;
   height: 350px;
 }
 
 
 
-#page1 h1 {
+#page1 h1, #page4 h1 {
   font-size: 26px;
   font-weight: 700;
   text-align: justify;
@@ -113,7 +113,7 @@ nav a:hover, .dropdown:hover {
   padding-bottom: 5px;
 }
 
-#page1 hr {
+#page1 hr, #page4 hr {
   width: 25%;
   display: block;
   height: 5px;
@@ -123,16 +123,27 @@ nav a:hover, .dropdown:hover {
   padding-bottom: 25px;
 }
 
-#page1 p {
+#page1 p, #page4 p {
   font-size: 16px;
   text-align: left;
   padding-right: 75px;
   line-height: 1.4;
 }
 
+#page4 p {
+  list-style-position: inside;
+  display: list-item;
+  list-style-type: disc;
+}
+
+#page4 h2 {
+  font-size: 20px;
+  text-align: left;
+}
+
 /* Footer Section */
 footer {
-  background-color: Moccasin;
+  background-color: Silver;
   font-style: italic;
 }
 
