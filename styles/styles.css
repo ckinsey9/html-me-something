@@ -11,14 +11,52 @@
    Page 9 = work.html / Work Experience Page */
 
 
+/* Main Body Styling for most pages */
 body  {
   font-family: "Laila", serif;
   text-align: center;
   border: 5px solid Snow;
+  width: 1250px;
   }
 
-/* Header */
-/* Photo by Felix Mittermeier from Pexels Website */
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 50px;
+  }
+
+main {
+    background-color: LavenderBlush;
+    height: 600px;
+    border: 75px solid lavenderblush;
+    border-top: 0;
+    border-bottom: 75px;
+    padding-top: 75px;
+  }
+
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 3px;
+    line-height: 1.4;
+  }
+
+#page3 li, #page5 li, #page6 li, #page7 li, #page8 li, #page9 li {
+    list-style: circle;
+    padding: 5px;
+    margin-left: -200px;
+    text-align: left;
+  }
+
+lh {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: -220px;
+  }
+
+/* Header Style
+Background Photo by Felix Mittermeier from Pexels Website */
 .header {
   position: relative;
   background-image: url("../images/night.jpeg");
@@ -26,17 +64,16 @@ body  {
   background-size: contain;
   height: 300px;
   color: Ivory;
-  
 }
 
-header h1 {
+.header h1 {
   font-size: 50px;
-  font-weight: 700;
   padding-top: 80px;
   margin-bottom: 50px;  
+  padding-bottom: 0;
 }
 
-header h2 {
+.header h2 {
   font-size: 35px;
   font-weight: 700;
   padding-bottom: 50px; 
@@ -97,13 +134,16 @@ nav a:hover, .dropdown:hover {
   display: block;
 }
 
-/* Main - Profile Picture and Bio Section, Also Education Page */
+/* Footer Section */
+footer {
+  background-color: lavenderblush;
+  font-style: italic;
+}
+
+/* Index/Home Page, Education Page (Pages 1 and 4) */
 #page1, #page4 {
-  background-color: LavenderBlush;
   height: 500px;
-  border: 75px solid lavenderblush;
   border-top: 0;
-  border-bottom: 75px;
   column-count: 2;
   padding-top: 100px;
 }
@@ -113,11 +153,8 @@ nav a:hover, .dropdown:hover {
   height: 350px;
 }
 
-
-
 #page1 h1, #page4 h1 {
   font-size: 26px;
-  font-weight: 700;
   text-align: justify;
   padding-right: 75px;
   padding-bottom: 5px;
@@ -151,40 +188,10 @@ nav a:hover, .dropdown:hover {
   text-align: left;
 }
 
-/* Footer Section */
-footer {
-  background-color: lavenderblush;
-  font-style: italic;
-}
-
-
-/* Contact Page and Some Continuing Education Page */
-
-#page2, #page3, #page5, #page6, #page7, #page8, #page9 {
-  background-color: LavenderBlush;
-  height: 600px;
-  border: 75px solid lavenderblush;
-  border-top: 0;
-  border-bottom: 75px;
-  padding-top: 75px;
-}
-
-#page2 h1, #page3 h1, #page5 h1, #page6 h1, #page7 h1, #page8 h1, #page9 h1 {
-  font-size: 24px;
-  font-weight: 700;
-  padding-bottom: 50px;
-}
-
+/* Contact Page and Continuing Education Page, Page 2 and 3 */
 #page2 h2, #page3 h2 {
   font-size: 18px;
   padding-bottom: 35px;
-}
-
-#page3 h2 {
-  float: left;
-  display: block;
-  padding-left: 10px;
-  text-decoration: underline;
 }
 
 #page2 input, #page2 textarea {
@@ -213,36 +220,22 @@ footer {
   background-color: DimGrey;
 }
 
-
-/*Continue Page */
-
+/*Continuing Education (Page 3) */
 .continue {
   height: 25%;
+}
+
+#page3 h2 {
+  float: left;
+  display: block;
+  padding-left: 10px;
+  text-decoration: underline;
 }
 
 .date_lists {
   height: 75%;
   width: 98%;
 }
-
-#page3 li, #page5 li, #page6 li, #page7 li, #page8 li, #page9 li {
-  list-style: circle;
-  padding: 5px;
-  margin-left: -200px;
-  text-align: left;
-}
-
-#page8 li {
-  margin-left: -250px;
-  padding-right: 50px;
-}
-
-#page8 .extra {
-  margin-left: -230px;
-  margin-top: 50px;
-
-}
-
 
 .first, .edu, .edu1, .first1 {
   width: 100%;
@@ -264,47 +257,29 @@ footer {
     padding-right: 0;
   }
 
-
-
 .first, .first1, .first2 {
   border-bottom: 0;
 }
 
-/* Organ Page and Research Page and Fieldwork*/
-
+/* Organ, Research, Fieldwork Pages (Pages 5-7)*/
 .organ, .research {
   height: 10%;
 }
 
-#page5 lh, #page6 lh, #page7 lh, #page8 lh, #page9 lh {
-  text-align: left;
-  font-size: 18px;
-  font-weight: 700;
-  margin-left: -220px;
-}
-
-#page8 lh {
-  font-style: italic;
-  font-size: 14px;
-  margin-left: -270px;
-}
-
-#page5 h2, #page6 h2, #page7 h2, #page8 h2, #page9 h2{
-  font-size: 18px;
-  font-weight: 700;
-  padding-bottom: 3px;
-  line-height: 1.4;
-}
-
-#page5 i, #page6 i, #page7 i{
+i {
   font-size: 14px;
   font-style: italic;
 }
 
-#page9 h3 {
-  font-size: 14px;
-  font-style: italic;
-  margin-left: -220px;
+#page6 .edu, #page6 .first{
+  height: 40%;
+}
+
+#page6 {
+  height: 500px;
+}
+
+#page6 li, #page7 li {
   padding-top: 10px;
 }
 
@@ -312,30 +287,11 @@ footer {
   padding-bottom: 30px;
 }
 
-#page8 h2 {
-  padding-bottom: 100px;
-}
+/* Fieldwork (Page 7) */
 
-#page6 .edu, #page6 .first{
+#page7 .edu1, #page7 .first1{
   height: 40%;
-}
-
-#page6 li, #page7 li {
-  padding-top: 10px;
-}
-
-#page6 {
-  height: 500px;
-}
-
-#page7, #page8 {
-  height: 1000px;
-  padding-top: 25px;
-}
-
-#page9 {
-  height: 1250px;
-  padding-top: 25px;
+  width: 98%;
 }
 
 #page7 .first {
@@ -348,7 +304,6 @@ footer {
   border-top: 0;
 }
 
-
 #page7 .date_lists, #page7 .date_lists1 {
   height: 35%;
   padding-top: 15px;
@@ -356,7 +311,6 @@ footer {
 
 .date_lists1 {
   padding-top: 25px;
-  
 }
 
 .fieldwork, .fieldwork1 {
@@ -364,14 +318,44 @@ footer {
   padding-top: 20px;
 }
 
-#page9 .fieldwork1 {
-  height: 50px;
+#page7, #page8 {
+  height: 1000px;
+  padding-top: 25px;
 }
 
+/* Skills Page (Page 8) */
+#page8 li {
+  margin-left: -250px;
+  padding-right: 50px;
+}
 
-#page7 .edu1, #page7 .first1{
-  height: 40%;
-  width: 98%;
+#page8 .extra {
+  margin-left: -230px;
+  margin-top: 50px;
+}
+
+#page8 h2 {
+  padding-bottom: 100px;
+}
+
+#page8 lh {
+  font-style: italic;
+  font-size: 14px;
+  margin-left: -270px;
+}
+
+/* Page 9, Work Experience Page Styling */
+
+#page9 {
+  height: 1250px;
+  padding-top: 25px;
+}
+
+#page9 h3 {
+  font-size: 14px;
+  font-style: italic;
+  margin-left: -220px;
+  padding-top: 10px;
 }
 
 #page9 .edu, #page9 .first {
@@ -392,5 +376,9 @@ footer {
 
 #page9 h2 {
   padding-bottom: 78px;
+}
+
+#page9 .fieldwork1 {
+  height: 50px;
 }
 
